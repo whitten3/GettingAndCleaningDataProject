@@ -38,6 +38,6 @@ run_analysis<-function(){
     completeData<-bind_rows(bindTest, bindTrain)
 
     end<-ddply(completeData, .(subject, activity), numcolwise(mean))
-       
+    write.table(end, file="./coursera/tidyData.txt" )   
 
 }
