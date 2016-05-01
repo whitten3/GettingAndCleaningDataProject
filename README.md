@@ -2,6 +2,7 @@
 This file lists the R script written to extract, clean and summarize the data files 
 for this project.
 
+The original data used for this project can be found at the following url
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 run_analysis<-function(){
